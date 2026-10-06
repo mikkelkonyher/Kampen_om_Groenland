@@ -1039,6 +1039,7 @@ MonoBehaviour:
   giverBitcoins: 10
   giverOpbakning: 0
   lyd: {fileID: 8300000, guid: 8f41027198dca43eab99ee8bf5602fab, type: 3}
+  lydStyrke: 1
   spil: {fileID: 717925797}
 --- !u!61 &274821984
 BoxCollider2D:
@@ -1329,6 +1330,7 @@ MonoBehaviour:
   giverBitcoins: 10
   giverOpbakning: 0
   lyd: {fileID: 8300000, guid: 8f41027198dca43eab99ee8bf5602fab, type: 3}
+  lydStyrke: 1
   spil: {fileID: 717925797}
 --- !u!61 &330052490
 BoxCollider2D:
@@ -4054,6 +4056,7 @@ MonoBehaviour:
   giverBitcoins: 10
   giverOpbakning: 0
   lyd: {fileID: 8300000, guid: 8f41027198dca43eab99ee8bf5602fab, type: 3}
+  lydStyrke: 1
   spil: {fileID: 717925797}
 --- !u!61 &697375758
 BoxCollider2D:
@@ -7074,6 +7077,7 @@ MonoBehaviour:
   giverBitcoins: 200
   giverOpbakning: 0
   lyd: {fileID: 8300000, guid: 92f9f57d543254608848ec06fc6d2f91, type: 3}
+  lydStyrke: 0.402
   spil: {fileID: 717925797}
 --- !u!61 &1542132902
 BoxCollider2D:
@@ -7474,6 +7478,7 @@ MonoBehaviour:
   giverBitcoins: 0
   giverOpbakning: 20
   lyd: {fileID: 8300000, guid: fb90ef783f1144815842d6bd5790be92, type: 3}
+  lydStyrke: 1
   spil: {fileID: 717925797}
 --- !u!61 &1628129821
 BoxCollider2D:
@@ -7822,6 +7827,7 @@ MonoBehaviour:
   giverBitcoins: 0
   giverOpbakning: 2
   lyd: {fileID: 8300000, guid: 6d9c844a9be0342589d13217bde53cf5, type: 3}
+  lydStyrke: 1
   spil: {fileID: 717925797}
 --- !u!61 &1802126449
 BoxCollider2D:

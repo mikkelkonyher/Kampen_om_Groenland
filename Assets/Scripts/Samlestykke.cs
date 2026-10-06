@@ -7,6 +7,7 @@ public class Samlestykke : MonoBehaviour
     public int giverBitcoins = 0;
     public int giverOpbakning = 0;
     public AudioClip lyd;
+    [Range(0f, 1f)] public float lydStyrke = 1f;
     public SpilStyring spil;
 
     private void Awake()
@@ -25,7 +26,7 @@ public class Samlestykke : MonoBehaviour
         if (spil == null) return;
 
         spil.Saml(giverBitcoins, giverOpbakning);
-        spil.SpilLyd(lyd);
+        spil.SpilLyd(lyd, lydStyrke);
         SendTilbage();
     }
 

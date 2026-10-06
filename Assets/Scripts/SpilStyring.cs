@@ -83,11 +83,12 @@ public class SpilStyring : MonoBehaviour
         VisTal();
     }
 
-    public void SpilLyd(AudioClip klip)
+    // styrke = 1 er fuld styrke. Angiver man ingen, bruges 1.
+    public void SpilLyd(AudioClip klip, float styrke = 1f)
     {
         if (lydKilde == null || klip == null) return;
 
-        lydKilde.PlayOneShot(klip);
+        lydKilde.PlayOneShot(klip, styrke);
     }
 
     private void VisTal()

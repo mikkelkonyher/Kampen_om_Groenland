@@ -1,0 +1,474 @@
+fileFormatVersion: 2
+guid: 6eaa82383e93b460db320fce279a6df7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7607187555780889361
+    second: sael_splat_sheet_0
+  - first:
+      213: -1805874165475430489
+    second: sael_splat_sheet_1
+  - first:
+      213: 6313312891429364492
+    second: sael_splat_sheet_2
+  - first:
+      213: -2849768466377477992
+    second: sael_splat_sheet_3
+  - first:
+      213: 3021550000825998336
+    second: sael_splat_sheet_4
+  - first:
+      213: -1377052604193896983
+    second: sael_splat_sheet_5
+  - first:
+      213: -6469347569643679855
+    second: sael_splat_sheet_6
+  - first:
+      213: 3776720573829160086
+    second: sael_splat_sheet_7
+  - first:
+      213: -4528201694156703422
+    second: sael_splat_sheet_8
+  - first:
+      213: 5365344343954897154
+    second: sael_splat_sheet_9
+  - first:
+      213: 1689407167850483874
+    second: sael_splat_sheet_10
+  - first:
+      213: -8620140030448730074
+    second: sael_splat_sheet_11
+  - first:
+      213: -8835858116135694007
+    second: sael_splat_sheet_12
+  - first:
+      213: -7939605113963925440
+    second: sael_splat_sheet_13
+  - first:
+      213: 8116687216742651542
+    second: sael_splat_sheet_14
+  - first:
+      213: -5967487577902603434
+    second: sael_splat_sheet_15
+  - first:
+      213: 5821062376859572213
+    second: sael_splat_sheet_16
+  - first:
+      213: 7396178707730734231
+    second: sael_splat_sheet_17
+  - first:
+      213: 7822721267593797128
+    second: sael_splat_sheet_18
+  - first:
+      213: 2832715995195255
+    second: sael_splat_sheet_19
+  - first:
+      213: 4089431964125006087
+    second: sael_splat_sheet_20
+  - first:
+      213: 3183540935159272062
+    second: sael_splat_sheet_21
+  - first:
+      213: -1538276887168187302
+    second: sael_splat_sheet_22
+  - first:
+      213: -8326916855396023847
+    second: sael_splat_sheet_23
+  - first:
+      213: 2308298227471746495
+    second: sael_splat_sheet_24
+  - first:
+      213: 7845604101772838973
+    second: sael_splat_sheet_25
+  - first:
+      213: -2957445712628370317
+    second: sael_splat_sheet_26
+  - first:
+      213: -5331966226139544020
+    second: sael_splat_sheet_27
+  - first:
+      213: 7868841769637232339
+    second: sael_splat_sheet_28
+  - first:
+      213: 1086801433364057550
+    second: sael_splat_sheet_29
+  - first:
+      213: 4734000319161648774
+    second: sael_splat_sheet_30
+  - first:
+      213: 8274973525727579988
+    second: sael_splat_sheet_31
+  - first:
+      213: 2919358191278977195
+    second: sael_splat_sheet_32
+  - first:
+      213: 176907234271871685
+    second: sael_splat_sheet_33
+  - first:
+      213: 4124498491262939735
+    second: saelsplat_0
+  - first:
+      213: 5770937775274879582
+    second: saelsplat_1
+  - first:
+      213: 7765105274278277451
+    second: saelsplat_2
+  - first:
+      213: 8368633767749877586
+    second: saelsplat_3
+  - first:
+      213: 6418033208355849249
+    second: saelsplat_4
+  - first:
+      213: 8721710424027405694
+    second: saelsplat_5
+  - first:
+      213: 6407341423330771657
+    second: saelsplat_6
+  - first:
+      213: 2920260089849955601
+    second: saelsplat_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 336
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: saelsplat_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 388
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752bc5876892d3930800000000000000
+      internalID: 4124498491262939735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saelsplat_1
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 0
+        width: 388
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a6424b45d761050800000000000000
+      internalID: 5770937775274879582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saelsplat_2
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 0
+        width: 388
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b417edc0b1233cb60800000000000000
+      internalID: 7765105274278277451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saelsplat_3
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 0
+        width: 388
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ff116a21c532470800000000000000
+      internalID: 8368633767749877586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saelsplat_4
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 0
+        width: 388
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12406b4e23f611950800000000000000
+      internalID: 6418033208355849249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saelsplat_5
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 0
+        width: 388
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d99f9cb6db90970800000000000000
+      internalID: 8721710424027405694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saelsplat_6
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 0
+        width: 388
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2c644b3137be850800000000000000
+      internalID: 6407341423330771657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saelsplat_7
+      rect:
+        serializedVersion: 2
+        x: 2716
+        y: 0
+        width: 388
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115c14b5419d68820800000000000000
+      internalID: 2920260089849955601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sael_splat_sheet_0: -7607187555780889361
+      sael_splat_sheet_1: -1805874165475430489
+      sael_splat_sheet_10: 1689407167850483874
+      sael_splat_sheet_11: -8620140030448730074
+      sael_splat_sheet_12: -8835858116135694007
+      sael_splat_sheet_13: -7939605113963925440
+      sael_splat_sheet_14: 8116687216742651542
+      sael_splat_sheet_15: -5967487577902603434
+      sael_splat_sheet_16: 5821062376859572213
+      sael_splat_sheet_17: 7396178707730734231
+      sael_splat_sheet_18: 7822721267593797128
+      sael_splat_sheet_19: 2832715995195255
+      sael_splat_sheet_2: 6313312891429364492
+      sael_splat_sheet_20: 4089431964125006087
+      sael_splat_sheet_21: 3183540935159272062
+      sael_splat_sheet_22: -1538276887168187302
+      sael_splat_sheet_23: -8326916855396023847
+      sael_splat_sheet_24: 2308298227471746495
+      sael_splat_sheet_25: 7845604101772838973
+      sael_splat_sheet_26: -2957445712628370317
+      sael_splat_sheet_27: -5331966226139544020
+      sael_splat_sheet_28: 7868841769637232339
+      sael_splat_sheet_29: 1086801433364057550
+      sael_splat_sheet_3: -2849768466377477992
+      sael_splat_sheet_30: 4734000319161648774
+      sael_splat_sheet_31: 8274973525727579988
+      sael_splat_sheet_32: 2919358191278977195
+      sael_splat_sheet_33: 176907234271871685
+      sael_splat_sheet_4: 3021550000825998336
+      sael_splat_sheet_5: -1377052604193896983
+      sael_splat_sheet_6: -6469347569643679855
+      sael_splat_sheet_7: 3776720573829160086
+      sael_splat_sheet_8: -4528201694156703422
+      sael_splat_sheet_9: 5365344343954897154
+      saelsplat_0: 4124498491262939735
+      saelsplat_1: 5770937775274879582
+      saelsplat_2: 7765105274278277451
+      saelsplat_3: 8368633767749877586
+      saelsplat_4: 6418033208355849249
+      saelsplat_5: 8721710424027405694
+      saelsplat_6: 6407341423330771657
+      saelsplat_7: 2920260089849955601
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

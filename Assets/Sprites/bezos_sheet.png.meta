@@ -1,0 +1,850 @@
+fileFormatVersion: 2
+guid: 67ae7f60715e44352b150fc72348b742
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7587764668499688449
+    second: bezos_sheet_0
+  - first:
+      213: 3711002645984823734
+    second: bezos_sheet_1
+  - first:
+      213: -7986284812846626721
+    second: bezos_sheet_2
+  - first:
+      213: -7909428891038677728
+    second: bezos_sheet_3
+  - first:
+      213: -5152715244064154177
+    second: bezos_sheet_4
+  - first:
+      213: 4553442247452693897
+    second: bezos_sheet_5
+  - first:
+      213: -4642105616550350210
+    second: bezos_sheet_6
+  - first:
+      213: 4651021951036304026
+    second: bezos_sheet_7
+  - first:
+      213: -1190506697746970716
+    second: bezos_sheet_8
+  - first:
+      213: 5596575904230138035
+    second: bezos_sheet_9
+  - first:
+      213: -5345022462171719386
+    second: bezos_sheet_10
+  - first:
+      213: -3002832149911400943
+    second: bezos_sheet_11
+  - first:
+      213: 5848841361472864624
+    second: bezos_sheet_12
+  - first:
+      213: -542842351050675411
+    second: bezos_sheet_13
+  - first:
+      213: -1687395838647741495
+    second: bezos_sheet_14
+  - first:
+      213: 6774370857903483717
+    second: bezos_sheet_15
+  - first:
+      213: -3392739146993387747
+    second: bezos_sheet_16
+  - first:
+      213: 6681422273648981946
+    second: bezos_sheet_17
+  - first:
+      213: 73867591208666713
+    second: bezos_sheet_18
+  - first:
+      213: 6545613122494873381
+    second: bezos_sheet_19
+  - first:
+      213: -1249152377593762291
+    second: bezos_sheet_20
+  - first:
+      213: 8294895511158629011
+    second: bezos_sheet_21
+  - first:
+      213: 2777433378575015261
+    second: bezos_sheet_22
+  - first:
+      213: -8900241331310211082
+    second: bezos_sheet_23
+  - first:
+      213: -8718253289772302692
+    second: bezos_00
+  - first:
+      213: 8734206830288878519
+    second: bezos_01
+  - first:
+      213: -784788358909283206
+    second: bezos_02
+  - first:
+      213: 2802041512523137095
+    second: bezos_03
+  - first:
+      213: 3426503024843009080
+    second: bezos_04
+  - first:
+      213: -8000851325008136479
+    second: bezos_05
+  - first:
+      213: 1557603349454748841
+    second: bezos_06
+  - first:
+      213: -4394205469532166168
+    second: bezos_07
+  - first:
+      213: 1604531010352382582
+    second: bezos_08
+  - first:
+      213: -5737257233867486901
+    second: bezos_09
+  - first:
+      213: 2998446371595344645
+    second: bezos_10
+  - first:
+      213: -8348690416926079966
+    second: bezos_11
+  - first:
+      213: 1662986252078347205
+    second: bezos_12
+  - first:
+      213: -6417457256286828427
+    second: bezos_13
+  - first:
+      213: -2645014846187366345
+    second: bezos_14
+  - first:
+      213: 4505343231891445895
+    second: bezos_15
+  - first:
+      213: -7252340640588362579
+    second: bezos_16
+  - first:
+      213: -6477675278382436995
+    second: bezos_17
+  - first:
+      213: 2782046286017359023
+    second: bezos_18
+  - first:
+      213: -2656794189521296253
+    second: bezos_19
+  - first:
+      213: -4759220074856481922
+    second: bezos_20
+  - first:
+      213: -2534721093884583381
+    second: bezos_21
+  - first:
+      213: -6768325457019317979
+    second: bezos_22
+  - first:
+      213: -7444037756644616251
+    second: bezos_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 179
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bezos_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 158
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ebd3103da820780800000000000000
+      internalID: -8718253289772302692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bezos_01
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 448
+        width: 158
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bbb82a16d2263970800000000000000
+      internalID: 8734206830288878519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bezos_02
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 448
+        width: 158
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74b953452fdb15f0800000000000000
+      internalID: -784788358909283206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bezos_03
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 448
+        width: 158
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74007d7e8e9d2e620800000000000000
+      internalID: 2802041512523137095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bezos_04
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 448
+        width: 158
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ca191c8526d8f20800000000000000
+      internalID: 3426503024843009080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bezos_05
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 448
+        width: 158
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e63d283c1447f090800000000000000
+      internalID: -8000851325008136479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bezos_06
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 448
+        width: 158
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac75396ef7bd9510800000000000000
+      internalID: 1557603349454748841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bezos_07
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 448
+        width: 158
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7e47e2865a403c0800000000000000
+      internalID: -4394205469532166168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bezos_08
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 158
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6720727e370744610800000000000000
+      internalID: 1604531010352382582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bezos_09
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 224
+        width: 158
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49c94e61fa2160b0800000000000000
+      internalID: -5737257233867486901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bezos_10
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 224
+        width: 158
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50bdff8a61f9c9920800000000000000
+      internalID: 2998446371595344645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bezos_11
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 224
+        width: 158
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224c96f8c4e732c80800000000000000
+      internalID: -8348690416926079966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bezos_12
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 224
+        width: 158
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3fc757f2d141710800000000000000
+      internalID: 1662986252078347205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bezos_13
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 224
+        width: 158
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57845c560ac90f6a0800000000000000
+      internalID: -6417457256286828427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bezos_14
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 224
+        width: 158
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7381e53e2050b4bd0800000000000000
+      internalID: -2645014846187366345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bezos_15
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 224
+        width: 158
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78899109cc1368e30800000000000000
+      internalID: 4505343231891445895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bezos_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 158
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac0a97ac928a5b90800000000000000
+      internalID: -7252340640588362579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bezos_17
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 0
+        width: 158
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d6fad87acaa16a0800000000000000
+      internalID: -6477675278382436995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bezos_18
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 0
+        width: 158
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac62c27b50db9620800000000000000
+      internalID: 2782046286017359023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bezos_19
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 0
+        width: 158
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384e24cc2cb212bd0800000000000000
+      internalID: -2656794189521296253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bezos_20
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 0
+        width: 158
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b754eae8ad3fdb0800000000000000
+      internalID: -4759220074856481922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bezos_21
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 0
+        width: 158
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22e15a389cd2dcd0800000000000000
+      internalID: -2534721093884583381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bezos_22
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 0
+        width: 158
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52151226bd31212a0800000000000000
+      internalID: -6768325457019317979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bezos_23
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 0
+        width: 158
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c71a9cb91771b890800000000000000
+      internalID: -7444037756644616251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bezos_00: -8718253289772302692
+      bezos_01: 8734206830288878519
+      bezos_02: -784788358909283206
+      bezos_03: 2802041512523137095
+      bezos_04: 3426503024843009080
+      bezos_05: -8000851325008136479
+      bezos_06: 1557603349454748841
+      bezos_07: -4394205469532166168
+      bezos_08: 1604531010352382582
+      bezos_09: -5737257233867486901
+      bezos_10: 2998446371595344645
+      bezos_11: -8348690416926079966
+      bezos_12: 1662986252078347205
+      bezos_13: -6417457256286828427
+      bezos_14: -2645014846187366345
+      bezos_15: 4505343231891445895
+      bezos_16: -7252340640588362579
+      bezos_17: -6477675278382436995
+      bezos_18: 2782046286017359023
+      bezos_19: -2656794189521296253
+      bezos_20: -4759220074856481922
+      bezos_21: -2534721093884583381
+      bezos_22: -6768325457019317979
+      bezos_23: -7444037756644616251
+      bezos_sheet_0: -7587764668499688449
+      bezos_sheet_1: 3711002645984823734
+      bezos_sheet_10: -5345022462171719386
+      bezos_sheet_11: -3002832149911400943
+      bezos_sheet_12: 5848841361472864624
+      bezos_sheet_13: -542842351050675411
+      bezos_sheet_14: -1687395838647741495
+      bezos_sheet_15: 6774370857903483717
+      bezos_sheet_16: -3392739146993387747
+      bezos_sheet_17: 6681422273648981946
+      bezos_sheet_18: 73867591208666713
+      bezos_sheet_19: 6545613122494873381
+      bezos_sheet_2: -7986284812846626721
+      bezos_sheet_20: -1249152377593762291
+      bezos_sheet_21: 8294895511158629011
+      bezos_sheet_22: 2777433378575015261
+      bezos_sheet_23: -8900241331310211082
+      bezos_sheet_3: -7909428891038677728
+      bezos_sheet_4: -5152715244064154177
+      bezos_sheet_5: 4553442247452693897
+      bezos_sheet_6: -4642105616550350210
+      bezos_sheet_7: 4651021951036304026
+      bezos_sheet_8: -1190506697746970716
+      bezos_sheet_9: 5596575904230138035
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

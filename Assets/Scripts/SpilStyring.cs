@@ -35,6 +35,17 @@ public class SpilStyring : MonoBehaviour
     public float raketFaktor = 2f;
     public float raketSekunder = 5f;
 
+    // Kim Jong-un: kimHeldChance for at få kimOpbakning mere, ellers dør man på stedet.
+    public TMP_Text kimBesked;
+    public GameObject kimChat;            // boksen med Kims billede, som teksten sidder i
+    public float kimBeskedSekunder = 10f;
+    public int kimOpbakning = 50;
+    [Range(0f, 1f)] public float kimHeldChance = 0.7f;   // 0,7 = 70 % held, 30 % død
+    [TextArea(2, 4)]
+    public string kimGod = "Kim Jong-un har lært dig en vigtig lektion: \"Inderst inde er alle kritikere tilhængere. Du skal bare grave lidt. Typisk to meter.\" +50%";
+    [TextArea(2, 4)]
+    public string kimDaarlig = "Ups! Du sagde \"Nuuk\" i telefonen til Kim Jong-un. Forbindelsen var dårlig. Nu er forbindelsen til Grønland også dårlig. For evigt. -100%";
+
     private int opbakning;
     private int bitcoins;
     private float afstand;
@@ -42,6 +53,10 @@ public class SpilStyring : MonoBehaviour
 
     private string iLommen = "";
     private float raketTidTilbage = 0f;
+    private float kimBeskedTidTilbage = 0f;
+
+    // Står der noget her, når turen slutter, vises det på slutskærmen.
+    private string doedsAarsag = "";
 
     // Butikken i kontoret skal kunne læse dem, men ikke ændre dem direkte.
     public int Bitcoins => bitcoins;
@@ -61,6 +76,10 @@ public class SpilStyring : MonoBehaviour
         Ruller.fartFaktor = 1f;
         iLommen = "";
         raketTidTilbage = 0f;
+        kimBeskedTidTilbage = 0f;
+        doedsAarsag = "";
+
+        VisKimChat(false);
 
         if (slutSkaerm != null)
         {
@@ -82,9 +101,28 @@ public class SpilStyring : MonoBehaviour
 
         bool shift = keyboard != null && (keyboard.leftShiftKey.wasPressedThisFrame || keyboard.rightShiftKey.wasPressedThisFrame);
 
-        if (spilletKoerer && !kontorAabent && shift && iLommen == "Elon Musk")
+        // Shift bruger den mand, der ligger i lommen.
+        if (spilletKoerer && !kontorAabent && shift)
         {
-            BrugElon();
+            if (iLommen == "Elon Musk")
+            {
+                BrugElon();
+            }
+            else if (iLommen == "Kim Jong-un")
+            {
+                BrugKim();
+            }
+        }
+
+        // Kims gode besked forsvinder igen efter et par sekunder.
+        if (kimBeskedTidTilbage > 0f)
+        {
+            kimBeskedTidTilbage = kimBeskedTidTilbage - Time.deltaTime;
+
+            if (kimBeskedTidTilbage <= 0f)
+            {
+                VisKimChat(false);
+            }
         }
 
         // Raketfarten tæller ned med spillets tid, så den står stille i kontoret og efter game over.
@@ -111,6 +149,46 @@ public class SpilStyring : MonoBehaviour
         iLommen = "";
         raketTidTilbage = raketSekunder;
         Ruller.fartFaktor = raketFaktor;
+        VisTal();
+    }
+
+    // Viser eller skjuler chatboksen. Er der ingen boks, vises teksten alene.
+    private void VisKimChat(bool vis)
+    {
+        if (kimChat != null)
+        {
+            kimChat.SetActive(vis);
+        }
+        else if (kimBesked != null)
+        {
+            kimBesked.gameObject.SetActive(vis);
+        }
+    }
+
+    // Wildcard: oftest hjælper han, men nogle gange er turen slut.
+    private void BrugKim()
+    {
+        iLommen = "";
+
+        if (Random.value < kimHeldChance)
+        {
+            Saml(0, kimOpbakning);
+
+            if (kimBesked != null)
+            {
+                kimBesked.text = kimGod;
+                VisKimChat(true);
+                kimBeskedTidTilbage = kimBeskedSekunder;
+            }
+        }
+        else
+        {
+            // Beskeden vises på slutskærmen, hvor spillet står stille, så den kan læses i ro.
+            doedsAarsag = kimDaarlig;
+            opbakning = 0;
+            Slut();
+        }
+
         VisTal();
     }
 
@@ -239,10 +317,18 @@ public class SpilStyring : MonoBehaviour
                 ? "<color=#50DC64>NY REKORD!  " + rekord + " m</color>"
                 : meter + " m\nHIGHSCORE  " + rekord + " m";
 
+            // Døde man af noget særligt (fx Kim Jong-un), står grunden under overskriften.
+            string aarsag = doedsAarsag != ""
+                ? "<size=32><color=#FF8080>" + doedsAarsag + "</color></size>\n\n"
+                : "";
+
             // Overskriften i gul og større, som i menuen.
             slutTekst.text = "<size=76><color=#FFD400>DU BLEV IKKE GENVALGT</color></size>\n\n"
+                + aarsag
                 + tal;
         }
+
+        VisKimChat(false);
 
         if (slutSkaerm != null)
         {

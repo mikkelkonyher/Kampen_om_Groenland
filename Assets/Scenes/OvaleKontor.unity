@@ -812,7 +812,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bitcoinTekst: {fileID: 1726846205}
   beskedTekst: {fileID: 1620659486}
-  elonPris: 100
+  elonPris: 300
 --- !u!1 &1228231724
 GameObject:
   m_ObjectHideFlags: 0
@@ -1722,7 +1722,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "ELON MUSK \xB7 100 BTC"
+  m_text: "ELON MUSK \xB7 300 BTC"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: a0f96138913324194a3b48fcc157d1d6, type: 2}

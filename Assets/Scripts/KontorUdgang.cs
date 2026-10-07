@@ -7,12 +7,16 @@ public class KontorUdgang : MonoBehaviour
 {
     public GameObject tilbageKnap;
 
-    private void Start()
+    // Er ingen knap markeret, markeres tilbageKnap, så Enter altid virker.
+    // Det tjekkes hele tiden og ikke kun ved start, fordi markeringen kan
+    // forsvinde lige når kontoret åbner, eller hvis man klikker ved siden af knapperne.
+    private void Update()
     {
-        // Markér knappen, så Enter virker med det samme.
-        if (EventSystem.current != null && tilbageKnap != null)
+        EventSystem es = EventSystem.current;
+
+        if (es != null && tilbageKnap != null && es.currentSelectedGameObject == null)
         {
-            EventSystem.current.SetSelectedGameObject(tilbageKnap);
+            es.SetSelectedGameObject(tilbageKnap);
         }
     }
 

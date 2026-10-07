@@ -25,10 +25,24 @@ public class SpilStyring : MonoBehaviour
     // Scenen der åbnes med O. Den lægges oven på banen, så turen ikke går tabt.
     public string kontorScene = "OvaleKontor";
 
+    // Lommen: den mand man har købt i Det Ovale Kontor og kan bruge med Shift.
+    public TMP_Text lommeTekst;
+
+    // Elon Musk: alt kører raketFaktor gange hurtigere i raketSekunder.
+    public float raketFaktor = 2f;
+    public float raketSekunder = 5f;
+
     private int opbakning;
     private int bitcoins;
     private float afstand;
     private bool spilletKoerer;
+
+    private string iLommen = "";
+    private float raketTidTilbage = 0f;
+
+    // Butikken i kontoret skal kunne læse dem, men ikke ændre dem direkte.
+    public int Bitcoins => bitcoins;
+    public string ILommen => iLommen;
 
     private void Start()
     {
@@ -39,6 +53,11 @@ public class SpilStyring : MonoBehaviour
         bitcoins = 0;
         afstand = 0f;
         spilletKoerer = true;
+
+        // Fartfaktoren er fælles og overlever sceneskift, så den skal nulstilles her.
+        Ruller.fartFaktor = 1f;
+        iLommen = "";
+        raketTidTilbage = 0f;
 
         if (slutSkaerm != null)
         {
@@ -58,11 +77,58 @@ public class SpilStyring : MonoBehaviour
             AabnKontor();
         }
 
+        bool shift = keyboard != null && (keyboard.leftShiftKey.wasPressedThisFrame || keyboard.rightShiftKey.wasPressedThisFrame);
+
+        if (spilletKoerer && !kontorAabent && shift && iLommen == "Elon Musk")
+        {
+            BrugElon();
+        }
+
+        // Raketfarten tæller ned med spillets tid, så den står stille i kontoret og efter game over.
+        if (raketTidTilbage > 0f)
+        {
+            raketTidTilbage = raketTidTilbage - Time.deltaTime;
+
+            if (raketTidTilbage <= 0f)
+            {
+                raketTidTilbage = 0f;
+                Ruller.fartFaktor = 1f;
+            }
+        }
+
         if (spilletKoerer)
         {
-            afstand = afstand + meterPrSekund * Time.deltaTime;
+            afstand = afstand + meterPrSekund * Ruller.fartFaktor * Time.deltaTime;
             VisTal();
         }
+    }
+
+    private void BrugElon()
+    {
+        iLommen = "";
+        raketTidTilbage = raketSekunder;
+        Ruller.fartFaktor = raketFaktor;
+        VisTal();
+    }
+
+    // Kaldes af butikken. Tom tekst betyder at købet gik igennem,
+    // ellers er teksten grunden til at det ikke gjorde.
+    public string Koeb(string navn, int pris)
+    {
+        if (iLommen != "")
+        {
+            return "Du har allerede " + iLommen + " i lommen";
+        }
+
+        if (bitcoins < pris)
+        {
+            return "Du mangler " + (pris - bitcoins) + " bitcoins";
+        }
+
+        bitcoins = bitcoins - pris;
+        iLommen = navn;
+        VisTal();
+        return "";
     }
 
     private void AabnKontor()
@@ -126,6 +192,22 @@ public class SpilStyring : MonoBehaviour
         if (afstandTekst != null)
         {
             afstandTekst.text = "AFSTAND  " + Mathf.FloorToInt(afstand) + " m";
+        }
+
+        if (lommeTekst != null)
+        {
+            if (raketTidTilbage > 0f)
+            {
+                lommeTekst.text = "RAKETFART!";
+            }
+            else if (iLommen != "")
+            {
+                lommeTekst.text = iLommen.ToUpper() + "  ·  SHIFT";
+            }
+            else
+            {
+                lommeTekst.text = "";
+            }
         }
     }
 

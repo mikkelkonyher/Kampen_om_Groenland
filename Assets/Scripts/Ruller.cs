@@ -4,6 +4,10 @@ using UnityEngine;
 // tilbage til højre igen - så kan de samme få objekter bruges for evigt.
 public class Ruller : MonoBehaviour
 {
+    // Ganges på alles fart. 1 = normal, 2 = Elons raketfart.
+    // Den er fælles for alle (static), så SpilStyring nulstiller den ved hver ny tur.
+    public static float fartFaktor = 1f;
+
     public float fart = 6f;
     public float slutX = -12f;
     public float startX = 12f;
@@ -13,7 +17,7 @@ public class Ruller : MonoBehaviour
 
     private void Update()
     {
-        transform.position = transform.position + Vector3.left * fart * Time.deltaTime;
+        transform.position = transform.position + Vector3.left * fart * fartFaktor * Time.deltaTime;
 
         if (transform.position.x < slutX)
         {

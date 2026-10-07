@@ -269,7 +269,7 @@ GameObject:
   - component: {fileID: 48617543}
   - component: {fileID: 48617542}
   m_Layer: 5
-  m_Name: KimFoto
+  m_Name: Foto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2904,7 +2904,7 @@ GameObject:
   - component: {fileID: 424804185}
   - component: {fileID: 424804184}
   m_Layer: 5
-  m_Name: KimBesked
+  m_Name: Besked
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4858,8 +4858,12 @@ MonoBehaviour:
   lommeTekst: {fileID: 173131832}
   raketFaktor: 2
   raketSekunder: 5
-  kimBesked: {fileID: 424804184}
-  kimChat: {fileID: 1631034438}
+  chat: {fileID: 1631034444}
+  elonFoto: {fileID: 463145353599845585, guid: 7558cadbdf4b24805988f5062724f45c, type: 3}
+  kimFoto: {fileID: -4454961988369264678, guid: 7de671a4bb0fc490f8f260ae81ab7946, type: 3}
+  elonBesked: "Hey Donald. Raketmotoren er t\xE6ndt. Gr\xF8nland er det nye Mars:
+    Koldt, \xF8de og ingen bor der frivilligt. Det bliver nemt at overtage."
+  elonBeskedSekunder: 10
   kimBeskedSekunder: 10
   kimOpbakning: 50
   kimHeldChance: 0.7
@@ -8169,8 +8173,9 @@ GameObject:
   - component: {fileID: 1631034442}
   - component: {fileID: 1631034441}
   - component: {fileID: 1631034440}
+  - component: {fileID: 1631034444}
   m_Layer: 5
-  m_Name: KimChat
+  m_Name: Chat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8266,6 +8271,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1631034438}
   m_CullTransparentMesh: 1
+--- !u!114 &1631034444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631034438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f78a51869faa474db574f67bef8e49c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foto: {fileID: 48617543}
+  navn: {fileID: 82940466}
+  besked: {fileID: 424804184}
 --- !u!1 &1669446893
 GameObject:
   m_ObjectHideFlags: 0
@@ -8462,7 +8482,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   giverBitcoins: 0
-  giverOpbakning: 2
+  giverOpbakning: 5
   lyd: {fileID: 8300000, guid: 6d9c844a9be0342589d13217bde53cf5, type: 3}
   lydStyrke: 0.668
   spil: {fileID: 717925797}

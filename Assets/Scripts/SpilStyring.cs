@@ -35,9 +35,16 @@ public class SpilStyring : MonoBehaviour
     public float raketFaktor = 2f;
     public float raketSekunder = 5f;
 
+    // Chatboksen nederst til højre, som mændene fra kontoret taler til en i.
+    public ChatBoks chat;
+    public Sprite elonFoto;
+    public Sprite kimFoto;
+
+    [TextArea(2, 4)]
+    public string elonBesked = "Hey Donald. Raketmotoren er tændt. Grønland er det nye Mars: Koldt, øde og ingen bor der frivilligt. Det bliver nemt at overtage.";
+    public float elonBeskedSekunder = 10f;
+
     // Kim Jong-un: kimHeldChance for at få kimOpbakning mere, ellers dør man på stedet.
-    public TMP_Text kimBesked;
-    public GameObject kimChat;            // boksen med Kims billede, som teksten sidder i
     public float kimBeskedSekunder = 10f;
     public int kimOpbakning = 50;
     [Range(0f, 1f)] public float kimHeldChance = 0.7f;   // 0,7 = 70 % held, 30 % død
@@ -53,7 +60,6 @@ public class SpilStyring : MonoBehaviour
 
     private string iLommen = "";
     private float raketTidTilbage = 0f;
-    private float kimBeskedTidTilbage = 0f;
 
     // Står der noget her, når turen slutter, vises det på slutskærmen.
     private string doedsAarsag = "";
@@ -76,10 +82,9 @@ public class SpilStyring : MonoBehaviour
         Ruller.fartFaktor = 1f;
         iLommen = "";
         raketTidTilbage = 0f;
-        kimBeskedTidTilbage = 0f;
         doedsAarsag = "";
 
-        VisKimChat(false);
+        SkjulChat();
 
         if (slutSkaerm != null)
         {
@@ -114,17 +119,6 @@ public class SpilStyring : MonoBehaviour
             }
         }
 
-        // Kims gode besked forsvinder igen efter et par sekunder.
-        if (kimBeskedTidTilbage > 0f)
-        {
-            kimBeskedTidTilbage = kimBeskedTidTilbage - Time.deltaTime;
-
-            if (kimBeskedTidTilbage <= 0f)
-            {
-                VisKimChat(false);
-            }
-        }
-
         // Raketfarten tæller ned med spillets tid, så den står stille i kontoret og efter game over.
         if (raketTidTilbage > 0f)
         {
@@ -149,19 +143,20 @@ public class SpilStyring : MonoBehaviour
         iLommen = "";
         raketTidTilbage = raketSekunder;
         Ruller.fartFaktor = raketFaktor;
+
+        if (chat != null)
+        {
+            chat.Vis(elonFoto, "ELON MUSK", elonBesked, Color.white, elonBeskedSekunder);
+        }
+
         VisTal();
     }
 
-    // Viser eller skjuler chatboksen. Er der ingen boks, vises teksten alene.
-    private void VisKimChat(bool vis)
+    private void SkjulChat()
     {
-        if (kimChat != null)
+        if (chat != null)
         {
-            kimChat.SetActive(vis);
-        }
-        else if (kimBesked != null)
-        {
-            kimBesked.gameObject.SetActive(vis);
+            chat.Skjul();
         }
     }
 
@@ -174,11 +169,9 @@ public class SpilStyring : MonoBehaviour
         {
             Saml(0, kimOpbakning);
 
-            if (kimBesked != null)
+            if (chat != null)
             {
-                kimBesked.text = kimGod;
-                VisKimChat(true);
-                kimBeskedTidTilbage = kimBeskedSekunder;
+                chat.Vis(kimFoto, "KIM JONG-UN", kimGod, new Color32(80, 220, 100, 255), kimBeskedSekunder);
             }
         }
         else
@@ -277,11 +270,8 @@ public class SpilStyring : MonoBehaviour
 
         if (lommeTekst != null)
         {
-            if (raketTidTilbage > 0f)
-            {
-                lommeTekst.text = "RAKETFART!";
-            }
-            else if (iLommen != "")
+            // Under raketfarten fortæller Elons chatboks det, så her står intet.
+            if (iLommen != "")
             {
                 lommeTekst.text = iLommen.ToUpper() + "  ·  SHIFT";
             }
@@ -328,7 +318,7 @@ public class SpilStyring : MonoBehaviour
                 + tal;
         }
 
-        VisKimChat(false);
+        SkjulChat();
 
         if (slutSkaerm != null)
         {

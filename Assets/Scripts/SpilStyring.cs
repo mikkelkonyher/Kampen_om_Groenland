@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 // Reglerne og tallene på skærmen.
@@ -19,6 +21,9 @@ public class SpilStyring : MonoBehaviour
     // Én fælles AudioSource til alle korte lyde.
     // PlayOneShot kan spille flere oven i hinanden uden at afbryde.
     public AudioSource lydKilde;
+
+    // Scenen der åbnes med O. Den lægges oven på banen, så turen ikke går tabt.
+    public string kontorScene = "OvaleKontor";
 
     private int opbakning;
     private int bitcoins;
@@ -45,11 +50,26 @@ public class SpilStyring : MonoBehaviour
 
     private void Update()
     {
+        Keyboard keyboard = Keyboard.current;
+        bool kontorAabent = SceneManager.GetSceneByName(kontorScene).isLoaded;
+
+        if (spilletKoerer && !kontorAabent && keyboard != null && keyboard.oKey.wasPressedThisFrame)
+        {
+            AabnKontor();
+        }
+
         if (spilletKoerer)
         {
             afstand = afstand + meterPrSekund * Time.deltaTime;
             VisTal();
         }
+    }
+
+    private void AabnKontor()
+    {
+        // Banen fryses og bliver liggende under kontoret.
+        Time.timeScale = 0f;
+        SceneManager.LoadScene(kontorScene, LoadSceneMode.Additive);
     }
 
     public void MistOpbakning(int antal)

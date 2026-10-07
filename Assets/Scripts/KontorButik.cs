@@ -8,6 +8,7 @@ public class KontorButik : MonoBehaviour
     public TMP_Text bitcoinTekst;
     public TMP_Text beskedTekst;
     public int elonPris = 100;
+    public int kimPris = 400;
 
     private SpilStyring spil;
 
@@ -25,16 +26,27 @@ public class KontorButik : MonoBehaviour
 
     public void KoebElon()
     {
+        Koeb("Elon Musk", elonPris, "Elon Musk Raketmotor aktiveret");
+    }
+
+    public void KoebKim()
+    {
+        Koeb("Kim Jong-un", kimPris, "Kim Jong-un er i lommen. Gud hjælpe os alle");
+    }
+
+    // Fælles for alle mændene: spørg SpilStyring og vis svaret.
+    private void Koeb(string navn, int pris, string succesTekst)
+    {
         if (spil == null) return;
 
-        string svar = spil.Koeb("Elon Musk", elonPris);
+        string svar = spil.Koeb(navn, pris);
 
         if (beskedTekst != null)
         {
             if (svar == "")
             {
                 // Købt: grøn tekst.
-                beskedTekst.text = "Elon Musk Raketmotor aktiveret";
+                beskedTekst.text = succesTekst;
                 beskedTekst.color = new Color32(80, 220, 100, 255);
             }
             else

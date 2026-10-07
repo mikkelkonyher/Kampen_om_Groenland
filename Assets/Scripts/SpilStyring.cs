@@ -25,6 +25,9 @@ public class SpilStyring : MonoBehaviour
     // Scenen der åbnes med O. Den lægges oven på banen, så turen ikke går tabt.
     public string kontorScene = "OvaleKontor";
 
+    // Navnet highscoren gemmes under. MainMenu læser samme navn.
+    public const string HighscoreNoegle = "Highscore";
+
     // Lommen: den mand man har købt i Det Ovale Kontor og kan bruge med Shift.
     public TMP_Text lommeTekst;
 
@@ -215,11 +218,30 @@ public class SpilStyring : MonoBehaviour
     {
         spilletKoerer = false;
 
+        // Highscore: gem afstanden, hvis den er længere end den bedste hidtil.
+        // PlayerPrefs gemmer på computeren, så tallet overlever at spillet lukkes.
+        int meter = Mathf.FloorToInt(afstand);
+        int rekord = PlayerPrefs.GetInt(HighscoreNoegle, 0);
+        bool nyRekord = meter > rekord;
+
+        if (nyRekord)
+        {
+            rekord = meter;
+            PlayerPrefs.SetInt(HighscoreNoegle, rekord);
+            PlayerPrefs.Save();
+        }
+
         if (slutTekst != null)
         {
+            // Ny rekord: kun den grønne linje, ellers står samme tal to gange.
+            // Ingen rekord: turens afstand og den gamle rekord i hvid.
+            string tal = nyRekord
+                ? "<color=#50DC64>NY REKORD!  " + rekord + " m</color>"
+                : meter + " m\nHIGHSCORE  " + rekord + " m";
+
             // Overskriften i gul og større, som i menuen.
             slutTekst.text = "<size=76><color=#FFD400>DU BLEV IKKE GENVALGT</color></size>\n\n"
-                + Mathf.FloorToInt(afstand) + " m   -   " + bitcoins + " bitcoins";
+                + tal;
         }
 
         if (slutSkaerm != null)

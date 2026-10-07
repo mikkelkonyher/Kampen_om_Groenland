@@ -7827,7 +7827,7 @@ MonoBehaviour:
   giverBitcoins: 0
   giverOpbakning: 2
   lyd: {fileID: 8300000, guid: 6d9c844a9be0342589d13217bde53cf5, type: 3}
-  lydStyrke: 1
+  lydStyrke: 0.668
   spil: {fileID: 717925797}
 --- !u!61 &1802126449
 BoxCollider2D:

@@ -44,6 +44,13 @@ public class SpilStyring : MonoBehaviour
     public string elonBesked = "Hey Donald. Raketmotoren er tændt. Grønland er det nye Mars: Koldt, øde og ingen bor der frivilligt. Det bliver nemt at overtage.";
     public float elonBeskedSekunder = 10f;
 
+    // Benjamin Netanyahu: Iron Dome beskytter mod alle forhindringer i domeSekunder.
+    public Sprite netanyahuFoto;
+    [TextArea(2, 4)]
+    public string netanyahuBesked = "Iron Dome aktiveret. Hvis noget ikke virker hensigtmæssigt, så kontakt min assistent, da jeg er travlt optaget med at begå folkemord de næste par måneder.";
+    public float domeSekunder = 10f;
+    public GameObject kuppel;             // den blå kuppel om slæden, vises mens skjoldet er tændt
+
     // Kim Jong-un: kimHeldChance for at få kimOpbakning mere, ellers dør man på stedet.
     public float kimBeskedSekunder = 10f;
     public int kimOpbakning = 50;
@@ -60,6 +67,7 @@ public class SpilStyring : MonoBehaviour
 
     private string iLommen = "";
     private float raketTidTilbage = 0f;
+    private float domeTidTilbage = 0f;
 
     // Står der noget her, når turen slutter, vises det på slutskærmen.
     private string doedsAarsag = "";
@@ -67,6 +75,9 @@ public class SpilStyring : MonoBehaviour
     // Butikken i kontoret skal kunne læse dem, men ikke ændre dem direkte.
     public int Bitcoins => bitcoins;
     public string ILommen => iLommen;
+
+    // Forhindringerne spørger her, om de må gøre skade.
+    public bool Beskyttet => domeTidTilbage > 0f;
 
     private void Start()
     {
@@ -82,6 +93,7 @@ public class SpilStyring : MonoBehaviour
         Ruller.fartFaktor = 1f;
         iLommen = "";
         raketTidTilbage = 0f;
+        domeTidTilbage = 0f;
         doedsAarsag = "";
 
         SkjulChat();
@@ -117,6 +129,27 @@ public class SpilStyring : MonoBehaviour
             {
                 BrugKim();
             }
+            else if (iLommen == "Benjamin Netanyahu")
+            {
+                BrugNetanyahu();
+            }
+        }
+
+        // Iron Dome tæller ned med spillets tid, ligesom raketfarten.
+        if (domeTidTilbage > 0f)
+        {
+            domeTidTilbage = domeTidTilbage - Time.deltaTime;
+        }
+
+        // Kuppelen vises, mens man er beskyttet, og blinker de sidste 2 sekunder som advarsel.
+        if (kuppel != null)
+        {
+            bool vis = Beskyttet && (domeTidTilbage > 2f || Mathf.Repeat(domeTidTilbage, 0.3f) > 0.15f);
+
+            if (kuppel.activeSelf != vis)
+            {
+                kuppel.SetActive(vis);
+            }
         }
 
         // Raketfarten tæller ned med spillets tid, så den står stille i kontoret og efter game over.
@@ -147,6 +180,20 @@ public class SpilStyring : MonoBehaviour
         if (chat != null)
         {
             chat.Vis(elonFoto, "ELON MUSK", elonBesked, Color.white, elonBeskedSekunder);
+        }
+
+        VisTal();
+    }
+
+    private void BrugNetanyahu()
+    {
+        iLommen = "";
+        domeTidTilbage = domeSekunder;
+
+        // Chatboksen står lige så længe som skjoldet, så man kan se, hvornår det slutter.
+        if (chat != null)
+        {
+            chat.Vis(netanyahuFoto, "BENJAMIN NETANYAHU", netanyahuBesked, Color.white, domeSekunder);
         }
 
         VisTal();

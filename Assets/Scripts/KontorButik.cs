@@ -9,6 +9,7 @@ public class KontorButik : MonoBehaviour
     public TMP_Text beskedTekst;
     public int elonPris = 100;
     public int kimPris = 400;
+    public int netanyahuPris = 600;
 
     private SpilStyring spil;
 
@@ -32,6 +33,11 @@ public class KontorButik : MonoBehaviour
     public void KoebKim()
     {
         Koeb("Kim Jong-un", kimPris, "Kim Jong-un er i lommen. Gud hjælpe os alle");
+    }
+
+    public void KoebNetanyahu()
+    {
+        Koeb("Benjamin Netanyahu", netanyahuPris, "Iron Dome er klar. Tryk SHIFT på isen");
     }
 
     // Fælles for alle mændene: spørg SpilStyring og vis svaret.

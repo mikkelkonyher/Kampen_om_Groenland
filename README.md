@@ -31,7 +31,7 @@ Opbakning er dit liv: rammer den 0, bliver du ikke genvalgt.
 |---|---|
 | Bitcoin | 10 bitcoins |
 | Jeff Bezos | 200 bitcoins |
-| MAGA-cap | 2% opbakning |
+| MAGA-cap | 5% opbakning |
 | Pingvin | 5% opbakning |
 | Nobels fredspris | 20% opbakning |
 

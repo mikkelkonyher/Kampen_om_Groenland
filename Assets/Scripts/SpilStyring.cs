@@ -28,6 +28,12 @@ public class SpilStyring : MonoBehaviour
     // Navnet highscoren gemmes under. MainMenu læser samme navn.
     public const string HighscoreNoegle = "Highscore";
 
+    // Små tal, der flyder op, når man rammer eller samler noget.
+    public FlydeTekster flydeTekster;
+    public static readonly Color PlusFarve = new Color32(80, 220, 100, 255);   // opbakning op
+    public static readonly Color MinusFarve = new Color32(255, 80, 80, 255);   // opbakning ned
+    public static readonly Color BitcoinFarve = new Color32(255, 212, 0, 255);
+
     // Lommen: den mand man har købt i Det Ovale Kontor og kan bruge med Shift.
     public TMP_Text lommeTekst;
 
@@ -288,6 +294,14 @@ public class SpilStyring : MonoBehaviour
         }
 
         VisTal();
+    }
+
+    public void VisFlydeTekst(Vector3 sted, string tekst, Color farve)
+    {
+        if (flydeTekster != null)
+        {
+            flydeTekster.Vis(sted, tekst, farve);
+        }
     }
 
     // styrke = 1 er fuld styrke. Angiver man ingen, bruges 1.

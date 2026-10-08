@@ -27,6 +27,7 @@ public class Forhindring : MonoBehaviour
         if (spil.Beskyttet) return;
 
         spil.MistOpbakning(kosterOpbakning);
+        spil.VisFlydeTekst(transform.position, "-" + kosterOpbakning + "%", SpilStyring.MinusFarve);
         spil.SpilLyd(lyd);
 
         // Har den en Splatter, bliver den liggende og splatter ud mens

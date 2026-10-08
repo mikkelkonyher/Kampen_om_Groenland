@@ -1895,9 +1895,11 @@ MonoBehaviour:
     <color=#FF8080>klimaforskere</color> de koster opbakning\n\nHold dig for alt
     i verden fra <color=#FF8080>Mette Frederiksen</color>, that nasty woman! Hun
     koster 30%\n\nSaml <color=#FFD400>bitcoins</color>, <color=#FFD400>MAGA-caps</color>,
-    <color=#FFD400>Jeff Bezos</color> og <color=#FFD400>Nobels fredspris</color>\n\nTryk
-    <b>O</b> for at \xE5bne <color=#FFD400>Det Ovale Kontor</color> og k\xF8be opgraderinger
-    for dine bitcoins\n\nOpbakning er dit liv. Rammer den 0, bliver du ikke genvalgt"
+    <color=#FFD400>pingviner</color>, <color=#FFD400>Jeff Bezos</color> og <color=#FFD400>Nobels
+    fredspris</color>\n\nTryk <b>O</b> for at \xE5bne <color=#FFD400>Det Ovale Kontor</color>
+    og k\xF8be opgraderinger for dine bitcoins. Tryk <b>SHIFT</b> p\xE5 isen for
+    at bruge den, du har k\xF8bt\n\nOpbakning er dit liv. Rammer den 0, bliver du
+    ikke genvalgt"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: a0f96138913324194a3b48fcc157d1d6, type: 2}

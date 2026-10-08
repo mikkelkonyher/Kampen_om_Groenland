@@ -23,6 +23,9 @@ public class Forhindring : MonoBehaviour
         if (other.GetComponent<SpillerSlaede>() == null) return;
         if (spil == null) return;
 
+        // Iron Dome: man kører lige igennem uden skade, og forhindringen bliver stående.
+        if (spil.Beskyttet) return;
+
         spil.MistOpbakning(kosterOpbakning);
         spil.SpilLyd(lyd);
 

@@ -1,0 +1,460 @@
+fileFormatVersion: 2
+guid: 52e80fcfa563a4f4a8099ca7b3b47517
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1952983246740666169
+    second: pingvin_flag_sheet_2-12_0
+  - first:
+      213: -2325610058516935767
+    second: pingvin_flag_sheet_2-12_1
+  - first:
+      213: 9101275589795172829
+    second: pingvin_flag_sheet_2-12_2
+  - first:
+      213: 8928422145127068444
+    second: pingvin_flag_sheet_2-12_3
+  - first:
+      213: 7709468096109474698
+    second: pingvin_flag_sheet_2-12_4
+  - first:
+      213: 2025898828508910177
+    second: pingvin_flag_sheet_2-12_5
+  - first:
+      213: -8245208249301684482
+    second: pingvin_flag_sheet_2-12_6
+  - first:
+      213: 821978548257321129
+    second: pingvin_flag_sheet_2-12_7
+  - first:
+      213: -1155677388279994565
+    second: pingvin_flag_sheet_2-12_8
+  - first:
+      213: 6715414390439640885
+    second: pingvin_flag_sheet_2-12_9
+  - first:
+      213: -1470131748617609967
+    second: pingvin_flag_sheet_2-12_10
+  - first:
+      213: 5607469898714452058
+    second: pingvin_0
+  - first:
+      213: 8799566552566682869
+    second: pingvin_1
+  - first:
+      213: -2808927255755205245
+    second: pingvin_2
+  - first:
+      213: 1907002895069225103
+    second: pingvin_3
+  - first:
+      213: 825843378630672266
+    second: pingvin_4
+  - first:
+      213: 223406135848616459
+    second: pingvin_5
+  - first:
+      213: -4973499170188927132
+    second: pingvin_6
+  - first:
+      213: -474279583743443346
+    second: pingvin_7
+  - first:
+      213: -8143995115398021252
+    second: pingvin_8
+  - first:
+      213: 4674349787800874472
+    second: pingvin_9
+  - first:
+      213: 9137069548506915766
+    second: pingvin_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 190
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pingvin_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 298
+        height: 334
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a501299c92cb1dd40800000000000000
+      internalID: 5607469898714452058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingvin_1
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 0
+        width: 298
+        height: 334
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4552f48275e1a70800000000000000
+      internalID: 8799566552566682869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingvin_2
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 0
+        width: 298
+        height: 334
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3855cc01b8fa409d0800000000000000
+      internalID: -2808927255755205245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingvin_3
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 0
+        width: 298
+        height: 334
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f802e328709077a10800000000000000
+      internalID: 1907002895069225103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingvin_4
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 0
+        width: 298
+        height: 334
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8fb3676d2cf57b00800000000000000
+      internalID: 825843378630672266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingvin_5
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 0
+        width: 298
+        height: 334
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0246e762b2b91300800000000000000
+      internalID: 223406135848616459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingvin_6
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 0
+        width: 298
+        height: 334
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f503efad49afab0800000000000000
+      internalID: -4973499170188927132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingvin_7
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 0
+        width: 298
+        height: 334
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e70ce3b350b69f0800000000000000
+      internalID: -474279583743443346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingvin_8
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 0
+        width: 298
+        height: 334
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f3f2e5797bafe80800000000000000
+      internalID: -8143995115398021252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingvin_9
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 0
+        width: 298
+        height: 334
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed2bc1cd50aed040800000000000000
+      internalID: 4674349787800874472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pingvin_10
+      rect:
+        serializedVersion: 2
+        x: 2980
+        y: 0
+        width: 298
+        height: 334
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b32bc618546dce70800000000000000
+      internalID: 9137069548506915766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pingvin_0: 5607469898714452058
+      pingvin_1: 8799566552566682869
+      pingvin_10: 9137069548506915766
+      pingvin_2: -2808927255755205245
+      pingvin_3: 1907002895069225103
+      pingvin_4: 825843378630672266
+      pingvin_5: 223406135848616459
+      pingvin_6: -4973499170188927132
+      pingvin_7: -474279583743443346
+      pingvin_8: -8143995115398021252
+      pingvin_9: 4674349787800874472
+      pingvin_flag_sheet_2-12_0: 1952983246740666169
+      pingvin_flag_sheet_2-12_1: -2325610058516935767
+      pingvin_flag_sheet_2-12_10: -1470131748617609967
+      pingvin_flag_sheet_2-12_2: 9101275589795172829
+      pingvin_flag_sheet_2-12_3: 8928422145127068444
+      pingvin_flag_sheet_2-12_4: 7709468096109474698
+      pingvin_flag_sheet_2-12_5: 2025898828508910177
+      pingvin_flag_sheet_2-12_6: -8245208249301684482
+      pingvin_flag_sheet_2-12_7: 821978548257321129
+      pingvin_flag_sheet_2-12_8: -1155677388279994565
+      pingvin_flag_sheet_2-12_9: 6715414390439640885
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

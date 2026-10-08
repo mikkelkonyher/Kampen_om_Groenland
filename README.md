@@ -12,7 +12,7 @@ Opbakning er dit liv: rammer den 0, bliver du ikke genvalgt.
 |---|---|
 | **W / S** | Skift spor |
 | **O** | Åbn Det Ovale Kontor. Spillet pauser |
-| **Shift** | Brug den mand, du har i lommen |
+| **Shift** | Brug den opgradering, du har købt i Det Ovale Kontor |
 | **Enter / piletaster** | Vælg i menuerne |
 
 ## På isen
@@ -32,6 +32,7 @@ Opbakning er dit liv: rammer den 0, bliver du ikke genvalgt.
 | Bitcoin | 10 bitcoins |
 | Jeff Bezos | 200 bitcoins |
 | MAGA-cap | 2% opbakning |
+| Pingvin | 5% opbakning |
 | Nobels fredspris | 20% opbakning |
 
 Opbakningen kan højst være 100%.

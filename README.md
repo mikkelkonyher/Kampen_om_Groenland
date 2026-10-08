@@ -49,6 +49,7 @@ og du bruger ham med **Shift**, når det passer dig.
 |---|---|---|
 | **Elon Musk** | 300 | Raketmotor: alt kører dobbelt så hurtigt i 5 sekunder, og afstanden tæller dobbelt. Ofte mere skade end gavn |
 | **Kim Jong-un** | 400 | Wildcard: 70% chance for +50% opbakning, 30% chance for at miste al opbakning på stedet |
+| **Netanyahu** | 600 | Iron Dome. Skjold i 10 sekunder |
 
 Når du bruger dem, skriver de til dig i en chatboks nederst på skærmen.
 
